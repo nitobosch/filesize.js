@@ -16,7 +16,7 @@ exports["filesize"] = {
 	base2: function (test) {
 		test.expect(45);
 
-		test.equal(filesize(this.kilobit),                             "500 B",    "Should be '500 B'");
+		test.equal(filesize(this.kilobit),                             "520 B",    "Should be '500 B'");
 		test.equal(filesize(this.kilobit, {round: 1}),                 "500 B",    "Should be '500 B'");
 		test.equal(filesize(this.kilobit, {round: 1, spacer: ""}),     "500B",     "Should be '500B'");
 		test.equal(filesize(this.kilobit, {unix: true}),               "500",      "Should be '500'");
